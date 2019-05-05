@@ -21,4 +21,6 @@ Main steps are:
 7. We can verify if the image has been pushed to repository or not by checking here - https://hub.docker.com
 8. Finally execute the docker image and this will start our spring boot application with docker container
 docker run -p 8080:8080 -t goyalshub/boot-on-docker-service
-
+9. Now if I have run the same application on another system or a different operating system, all I need to do is pull the image from docker hub and run it.
+  https://hub.docker.com/r/goyalshub/boot-on-docker-service
+  
